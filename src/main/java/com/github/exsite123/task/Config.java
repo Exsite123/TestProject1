@@ -32,6 +32,7 @@ public class Config {
 		if (instance == null) {
 			instance = new Config();
 			instance.toFile(file);
+			System.exit(0);
 		}
 		return instance;
 	}
